@@ -1,6 +1,14 @@
 const fs = require("fs");
 const { NodeExtended } = require("node-extended");
 
+// Capitalize a string
+function toCapitalCase(str) {
+  if (!str || str === "") {
+    return str;
+  }
+  return str[0].toUpperCase() + str.slice(1);
+}
+
 /* CLI markdown.config.js file example */
 module.exports = {
   transforms: {
@@ -16,8 +24,29 @@ module.exports = {
             const name = child.name.replace(/"/g, "");
             if (child.comment && !child.name.includes("Props")) {
               stringItems.push(`* **${name}**`);
-              stringItems.push(`\n\t${child.comment.shortText}`);
-              stringItems.push(`\n\t${child.comment.text}`);
+
+              const subItems = [];
+              if (child.comment.shortText) {
+                subItems.push(`\t${child.comment.shortText}`);
+              }
+
+              if (child.comment.text) {
+                subItems.push(`${child.comment.text}`);
+              }
+
+              if (child.comment.tags) {
+                subItems.push("");
+                const item = `${child.comment.tags.map(
+                  (tag) =>
+                    `${toCapitalCase(tag.tag)}: ${tag.text.replace(
+                      /\n/g,
+                      "\n\t"
+                    )}`
+                )}`;
+                subItems.push(item);
+              }
+
+              stringItems.push(subItems.join("\n\t"));
             }
           });
         }

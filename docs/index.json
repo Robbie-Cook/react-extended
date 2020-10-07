@@ -77,7 +77,12 @@
 					},
 					"comment": {
 						"shortText": "Make a portal in the DOM.",
-						"text": "TODO: add a11y support\n"
+						"tags": [
+							{
+								"tag": "example",
+								"text": "\n```\n<Portal><p>Hello!</p></Portal>\n```\nTODO: add a11y support\n"
+							}
+						]
 					},
 					"signatures": [
 						{
@@ -88,7 +93,12 @@
 							"flags": {},
 							"comment": {
 								"shortText": "Make a portal in the DOM.",
-								"text": "TODO: add a11y support\n"
+								"tags": [
+									{
+										"tag": "example",
+										"text": "\n```\n<Portal><p>Hello!</p></Portal>\n```\nTODO: add a11y support\n"
+									}
+								]
 							},
 							"parameters": [
 								{
@@ -113,7 +123,7 @@
 					"sources": [
 						{
 							"fileName": "Portal.tsx",
-							"line": 18,
+							"line": 22,
 							"character": 12
 						}
 					]

@@ -13,6 +13,10 @@ export interface PortalProps {
 /**
  * Make a portal in the DOM.
  * 
+ * @example 
+ * ```
+ * <Portal><p>Hello!</p></Portal>
+ * ```
  * TODO: add a11y support
  */
 const Portal = (props: PortalProps) => {
