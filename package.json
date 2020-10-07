@@ -1,0 +1,25 @@
+{
+  "name": "react-extended",
+  "version": "0.0.0",
+  "description": "A set of helpers for React that make it easier to use",
+  "main": "dist/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Robbie-Cook/react-extended.git"
+  },
+  "keywords": [
+    "React",
+    "hooks",
+    "onMount",
+    "onUpdate"
+  ],
+  "author": "Robbie Cook <https://github.com/Robbie-Cook>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Robbie-Cook/react-extended/issues"
+  },
+  "homepage": "https://github.com/Robbie-Cook/react-extended#readme"
+}
