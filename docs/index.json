@@ -38,7 +38,7 @@
 							},
 							"sources": [
 								{
-									"fileName": "Portal.tsx",
+									"fileName": "src/Portal.tsx",
 									"line": 10,
 									"character": 10
 								}
@@ -60,7 +60,7 @@
 					],
 					"sources": [
 						{
-							"fileName": "Portal.tsx",
+							"fileName": "src/Portal.tsx",
 							"line": 9,
 							"character": 28
 						}
@@ -108,21 +108,67 @@
 									"kindString": "Parameter",
 									"flags": {},
 									"type": {
-										"type": "reference",
-										"id": 2,
-										"name": "PortalProps"
+										"type": "intersection",
+										"types": [
+											{
+												"type": "reference",
+												"id": 2,
+												"name": "PortalProps"
+											},
+											{
+												"type": "reflection",
+												"declaration": {
+													"id": 7,
+													"name": "__type",
+													"kind": 65536,
+													"kindString": "Type literal",
+													"flags": {},
+													"children": [
+														{
+															"id": 8,
+															"name": "children",
+															"kind": 32,
+															"kindString": "Variable",
+															"flags": {
+																"isOptional": true
+															},
+															"sources": [
+																{
+																	"fileName": "node_modules/@types/react/index.d.ts",
+																	"line": 825,
+																	"character": 46
+																}
+															],
+															"type": {
+																"type": "reference",
+																"name": "ReactNode"
+															}
+														}
+													],
+													"groups": [
+														{
+															"title": "Variables",
+															"kind": 32,
+															"children": [
+																8
+															]
+														}
+													]
+												}
+											}
+										]
 									}
 								}
 							],
 							"type": {
-								"type": "intrinsic",
-								"name": "void"
+								"type": "reference",
+								"name": "Element"
 							}
 						}
 					],
 					"sources": [
 						{
-							"fileName": "Portal.tsx",
+							"fileName": "src/Portal.tsx",
 							"line": 22,
 							"character": 12
 						}
@@ -147,14 +193,14 @@
 			],
 			"sources": [
 				{
-					"fileName": "Portal.tsx",
+					"fileName": "src/Portal.tsx",
 					"line": 1,
 					"character": 0
 				}
 			]
 		},
 		{
-			"id": 7,
+			"id": 9,
 			"name": "\"index\"",
 			"kind": 1,
 			"kindString": "Module",
@@ -164,7 +210,7 @@
 			"originalName": "/Users/Robbie/Repos/react-extended/src/index.tsx",
 			"sources": [
 				{
-					"fileName": "index.tsx",
+					"fileName": "src/index.tsx",
 					"line": 1,
 					"character": 0
 				}
@@ -177,7 +223,7 @@
 			"kind": 1,
 			"children": [
 				1,
-				7
+				9
 			]
 		}
 	]
