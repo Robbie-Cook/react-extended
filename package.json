@@ -1,6 +1,6 @@
 {
   "name": "react-extended",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A set of helpers for React that make it easier to use",
   "main": "dist/index.js",
   "scripts": {
