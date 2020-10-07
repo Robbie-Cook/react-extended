@@ -1,0 +1,174 @@
+{
+	"id": 0,
+	"name": "react-extended",
+	"kind": 0,
+	"flags": {},
+	"originalName": "",
+	"children": [
+		{
+			"id": 1,
+			"name": "\"Portal\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/Robbie/Repos/react-extended/src/Portal.tsx",
+			"children": [
+				{
+					"id": 2,
+					"name": "PortalProps",
+					"kind": 256,
+					"kindString": "Interface",
+					"flags": {
+						"isExported": true
+					},
+					"comment": {
+						"shortText": "Interface for Portal props"
+					},
+					"children": [
+						{
+							"id": 3,
+							"name": "children",
+							"kind": 1024,
+							"kindString": "Property",
+							"flags": {
+								"isExported": true,
+								"isOptional": true
+							},
+							"sources": [
+								{
+									"fileName": "Portal.tsx",
+									"line": 10,
+									"character": 10
+								}
+							],
+							"type": {
+								"type": "reference",
+								"name": "ReactNode"
+							}
+						}
+					],
+					"groups": [
+						{
+							"title": "Properties",
+							"kind": 1024,
+							"children": [
+								3
+							]
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Portal.tsx",
+							"line": 9,
+							"character": 28
+						}
+					]
+				},
+				{
+					"id": 4,
+					"name": "Portal",
+					"kind": 64,
+					"kindString": "Function",
+					"flags": {
+						"isExported": true,
+						"isConst": true
+					},
+					"comment": {
+						"shortText": "Make a portal in the DOM.",
+						"text": "TODO: add a11y support\n"
+					},
+					"signatures": [
+						{
+							"id": 5,
+							"name": "Portal",
+							"kind": 4096,
+							"kindString": "Call signature",
+							"flags": {},
+							"comment": {
+								"shortText": "Make a portal in the DOM.",
+								"text": "TODO: add a11y support\n"
+							},
+							"parameters": [
+								{
+									"id": 6,
+									"name": "props",
+									"kind": 32768,
+									"kindString": "Parameter",
+									"flags": {},
+									"type": {
+										"type": "reference",
+										"id": 2,
+										"name": "PortalProps"
+									}
+								}
+							],
+							"type": {
+								"type": "intrinsic",
+								"name": "void"
+							}
+						}
+					],
+					"sources": [
+						{
+							"fileName": "Portal.tsx",
+							"line": 18,
+							"character": 12
+						}
+					]
+				}
+			],
+			"groups": [
+				{
+					"title": "Interfaces",
+					"kind": 256,
+					"children": [
+						2
+					]
+				},
+				{
+					"title": "Functions",
+					"kind": 64,
+					"children": [
+						4
+					]
+				}
+			],
+			"sources": [
+				{
+					"fileName": "Portal.tsx",
+					"line": 1,
+					"character": 0
+				}
+			]
+		},
+		{
+			"id": 7,
+			"name": "\"index\"",
+			"kind": 1,
+			"kindString": "Module",
+			"flags": {
+				"isExported": true
+			},
+			"originalName": "/Users/Robbie/Repos/react-extended/src/index.tsx",
+			"sources": [
+				{
+					"fileName": "index.tsx",
+					"line": 1,
+					"character": 0
+				}
+			]
+		}
+	],
+	"groups": [
+		{
+			"title": "Modules",
+			"kind": 1,
+			"children": [
+				1,
+				7
+			]
+		}
+	]
+}
