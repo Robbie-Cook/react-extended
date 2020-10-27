@@ -34,7 +34,7 @@
     "node-extended": "^0.1.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "tsdoc-extended": "^1.0.2"
+    "tsdoc-extended": "^1.0.3"
   },
   "devDependencies": {
     "ts-loader": "^8.0.4",

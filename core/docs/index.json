@@ -23,9 +23,6 @@
 					"flags": {
 						"isExported": true
 					},
-					"comment": {
-						"shortText": "Interface for Portal props"
-					},
 					"children": [
 						{
 							"id": 3,
@@ -39,7 +36,7 @@
 							"sources": [
 								{
 									"fileName": "src/Portal.tsx",
-									"line": 10,
+									"line": 7,
 									"character": 10
 								}
 							],
@@ -61,7 +58,7 @@
 					"sources": [
 						{
 							"fileName": "src/Portal.tsx",
-							"line": 9,
+							"line": 6,
 							"character": 28
 						}
 					]
@@ -80,7 +77,7 @@
 						"tags": [
 							{
 								"tag": "example",
-								"text": "\n```\n<Portal><p>Hello!</p></Portal>\n```\nTODO: add a11y support\n"
+								"text": "<Portal><p>Hello!</p></Portal>\nTODO: add a11y support\n"
 							}
 						]
 					},
@@ -96,7 +93,7 @@
 								"tags": [
 									{
 										"tag": "example",
-										"text": "\n```\n<Portal><p>Hello!</p></Portal>\n```\nTODO: add a11y support\n"
+										"text": "<Portal><p>Hello!</p></Portal>\nTODO: add a11y support\n"
 									}
 								]
 							},
@@ -169,7 +166,7 @@
 					"sources": [
 						{
 							"fileName": "src/Portal.tsx",
-							"line": 22,
+							"line": 16,
 							"character": 12
 						}
 					]

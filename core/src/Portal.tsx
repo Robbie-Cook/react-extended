@@ -3,9 +3,6 @@ import { css, jsx } from "@emotion/core";
 import React, { ReactNode } from "react";
 import ReactDOM from "react-dom";
 
-/**
- * Interface for Portal props
- */
 export interface PortalProps {
   children?: ReactNode;
 }
@@ -13,10 +10,7 @@ export interface PortalProps {
 /**
  * Make a portal in the DOM.
  *
- * @example
- * ```
- * <Portal><p>Hello!</p></Portal>
- * ```
+ * @example <Portal><p>Hello!</p></Portal>
  * TODO: add a11y support
  */
 const Portal: React.FC<PortalProps> = (props) => {
