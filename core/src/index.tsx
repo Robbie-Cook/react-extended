@@ -1,3 +1,4 @@
 import Portal from "./Portal";
+import { onMount, onUnmount, onUpdate } from "./hooks";
 
-export { Portal };
+export { Portal, onMount, onUnmount, onUpdate };

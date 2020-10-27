@@ -2,9 +2,11 @@
 import { css, jsx } from "@emotion/core";
 import React, { ReactNode } from "react";
 import ReactDOM from "react-dom";
+import { onUpdate } from "./hooks";
 
 export interface PortalProps {
   children?: ReactNode;
+  targetSelector?: string;
 }
 
 /**
@@ -14,6 +16,12 @@ export interface PortalProps {
  * TODO: add a11y support
  */
 const Portal: React.FC<PortalProps> = (props) => {
+  onUpdate(async () => {
+    if (props.targetSelector) {
+      
+    }
+  });
+
   ReactDOM.createPortal(props.children, document.body);
   return <React.Fragment></React.Fragment>;
 };
